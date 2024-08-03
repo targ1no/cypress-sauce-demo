@@ -1,0 +1,30 @@
+name: Regressive test
+
+on:
+    push:
+        branches: [ main ]
+    schedule:
+        - cron: '0 9,11,15,18 * * 1,2,3,4,5'
+
+jobs:
+    regressive-test:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout project
+              uses: actions/checkout@v2
+
+            - name: Setup Node.js environment
+              uses: actions/setup-node@v2.2.0
+              with:
+                node-version: ${{ matrix.node-version }}
+
+            - name: Install dependencies
+              run: npm install
+
+            - name: Setup Cypress
+              uses: cypress-io/github-action@v6
+
+            - name: Run tests
+              run: npx cypress run
+                
