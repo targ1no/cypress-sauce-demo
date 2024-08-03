@@ -32,4 +32,4 @@
 - **Finalização de Compra**: Testa o fluxo de finalização de compra.
 
 ## Separação Clara
-   - Locators são definidos em arquivos separados (\`loginPageElements.js\`, etc.), e a lógica de interação é separada desses locators (\`loginPage.js\`, etc.). Essa abordagem melhora a organização do código e facilita a manutenção e expansão dos testes." 
+   - Locators são definidos em arquivos separados (\`loginPageElements.js\`, etc.), e a lógica de interação é separada desses locators (\`loginPage.js\`, etc.). Essa abordagem melhora a organização do código e facilita a manutenção e expansão dos testes.
