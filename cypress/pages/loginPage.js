@@ -1,4 +1,3 @@
-// cypress/pageObjects/loginPage.js
 import locators from './loginPageElements';
 
 class LoginPage {

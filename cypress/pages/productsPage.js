@@ -1,4 +1,3 @@
-// cypress/pageObjects/productsPage.js
 import locators from './productsPageElements';
 
 class ProductsPage {

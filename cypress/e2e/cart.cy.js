@@ -1,4 +1,3 @@
-// cypress/integration/cart.spec.js
 import LoginPage from '../pages/loginPage';
 import ProductsPage from '../pages/productsPage';
 import CartPage from '../pages/cartPage';
