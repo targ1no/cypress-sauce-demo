@@ -21,12 +21,14 @@
 
 - **cypress/e2e/** - Contém os arquivos de teste.
 - **cypress/pages/** - Contém os Page Objects e locators/elementos.
+- **cypress/reports/** - Contém o relatório dos testes. (vai ser gerado após execução!)
 - **cypress/fixtures/** - Contém dados estáticos para os testes.
 - **cypress/support/** - Contém configurações e comandos adicionais.
 
 ## Testes
 
 - **Login**: Testa login com credenciais válidas e inválidas.
+- **Logout**: Testa logout do usuário.
 - **Visualização de Produtos**: Testa a visualização e adição de produtos ao carrinho.
 - **Remoção do Carrinho**: Testa a remoção de produtos do carrinho.
 - **Finalização de Compra**: Testa o fluxo de finalização de compra.
