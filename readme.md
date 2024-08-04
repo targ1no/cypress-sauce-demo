@@ -35,3 +35,6 @@
 
 ## Separação Clara
    - Locators são definidos em arquivos separados (\`loginPageElements.js\`, etc.), e a lógica de interação é separada desses locators (\`loginPage.js\`, etc.). Essa abordagem melhora a organização do código e facilita a manutenção e expansão dos testes.
+
+## Pipeline de Testes Regressivos
+   - A pipeline de testes regressivos está configurada para ser executada em determinadas circunstâncias, como em push para a branch principal ou em horários agendados e garante que os testes sejam executados automaticamente sempre que houver um push para a branch principal ou nos horários agendados, proporcionando uma validação contínua do código.
