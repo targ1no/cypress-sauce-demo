@@ -2,7 +2,7 @@ import locators from './loginPageElements';
 
 class LoginPage {
   visit() {
-    cy.visit('https://www.saucedemo.com/v1/');
+    cy.visit('/');
   }
 
   fillUsername(username) {
