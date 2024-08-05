@@ -39,6 +39,9 @@
 ## Pipeline de Testes Regressivos
    - A pipeline de testes regressivos está configurada para ser executada em determinadas circunstâncias, como em push para a branch principal ou em horários agendados e garante que os testes sejam executados automaticamente sempre que houver um push para a branch principal ou nos horários agendados, proporcionando uma validação contínua do código.
 
+![image](https://github.com/user-attachments/assets/5975386c-7402-4b39-aba1-619e47d7d807)
+
+
 ## Sobre o BDD com Cypress
 
 - Behavior-Driven Development (BDD) é uma prática de desenvolvimento que foca em melhorar a colaboração entre desenvolvedores, testers e outros stakeholders. Ele se baseia na criação de testes que descrevem o comportamento esperado do sistema em uma linguagem simples e compreensível.
